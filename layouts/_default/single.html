@@ -9,16 +9,16 @@
                 {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
                 <div class="post-meta">
                     <time class="blog-post-date" datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ . | time.Format $configDateFormat }} </time>
-                    <hr class="hr-blog-header"/>
                 </div>
                 {{ end }}
             </header>
             {{ partial "toc.html" .}}
             {{ if .Params.image }}
-                <div class="centered-image">
-                    <img src="{{ .Params.image }}" alt="Blog Post Image">
+                <div class="centered-landscape-image">
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}">
                 </div>
             {{ end }}
+            <hr class="hr-blog-header"/>
             <div class="page-content">
                 {{ .Content }}
             </div>
