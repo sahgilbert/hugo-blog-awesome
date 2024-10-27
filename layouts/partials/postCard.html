@@ -20,5 +20,13 @@
                 </time>
             </small>
         </div>
+        {{/* Display up to 5 tags if they exist */}}
+        {{ if .Params.tags }}
+        <div class="post-tags">
+            {{ range first 5 .Params.tags }}
+                <span class="post-tag">{{ . }}</span>
+            {{ end }}
+        </div>
+        {{ end }}
     </a>
 </article>
