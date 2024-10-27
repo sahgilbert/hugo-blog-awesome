@@ -60,6 +60,18 @@
   height: 100%;
 }
 
+.centered-landscape-image {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.centered-landscape-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 // Post content
 .page-content {
   padding-top: 8px;
