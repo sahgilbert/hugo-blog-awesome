@@ -26,6 +26,11 @@
   }
 }
 
+.home-page-blog-post-date {
+  display: block !important; 
+  grid-row: 2 !important;
+}
+
 // Post meta
 .post-meta {
   padding-top: 3px;
@@ -45,6 +50,14 @@
 .hr-blog-header {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.post-link {
+  display: block;
+  color: inherit; /* Keeps text color consistent */
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
 }
 
 // Post content
