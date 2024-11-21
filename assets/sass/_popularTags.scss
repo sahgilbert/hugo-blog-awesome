@@ -38,6 +38,9 @@
     border-radius: 8px; /* Slightly rounded corners for the tags */
     font-weight: 500;
     transition: transform 0.2s, background-color 0.2s;
+
+    /* Ensure text retains original formatting */
+    text-transform: none;
 }
 
 .popular-tag-link:hover {
