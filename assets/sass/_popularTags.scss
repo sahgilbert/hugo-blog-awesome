@@ -5,7 +5,8 @@
     padding: 1.5rem;
     border: 2px solid #af51f2;
     border-radius: 16px;
-    background-color: #f9f9f9; /* Optional: light background for better contrast */
+    background-color: #131418; /* Updated background color */
+    color: #ffffff; /* Ensure text is visible on dark background */
 }
 
 .popular-tags-title {
@@ -38,9 +39,7 @@
     border-radius: 8px; /* Slightly rounded corners for the tags */
     font-weight: 500;
     transition: transform 0.2s, background-color 0.2s;
-
-    /* Ensure text retains original formatting */
-    text-transform: none;
+    text-transform: none; /* Retains original text formatting */
 }
 
 .popular-tag-link:hover {
