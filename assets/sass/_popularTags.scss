@@ -2,13 +2,17 @@
 .popular-tags {
     text-align: center;
     margin: 2rem 0;
+    padding: 1.5rem;
+    border: 2px solid #af51f2;
+    border-radius: 16px;
+    background-color: #f9f9f9; /* Optional: light background for better contrast */
 }
 
 .popular-tags-title {
     color: #af51f2;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .popular-tags-list {
@@ -17,7 +21,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .popular-tag-item {
@@ -26,12 +30,12 @@
 
 .popular-tag-link {
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 0.25rem 0.5rem; /* Smaller padding for a compact look */
+    font-size: 0.875rem; /* Smaller font size */
     background-color: #af51f2;
     color: #ffffff;
     text-decoration: none;
-    border-radius: 12px;
-    font-size: 1rem;
+    border-radius: 8px; /* Slightly rounded corners for the tags */
     font-weight: 500;
     transition: transform 0.2s, background-color 0.2s;
 }
