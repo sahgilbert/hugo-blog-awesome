@@ -22,7 +22,7 @@
             
             <!-- Top 10 Popular Tags Section -->
             <section class="popular-tags">
-                <h3 class="popular-tags-title">{{ T "home.popular_tags" }}</h3>
+                <h3 class="popular-tags-title">Popular Tags</h3>
                 <ul class="popular-tags-list">
                     {{ $topTags := slice }}
                     {{ range $key, $taxonomy := .Site.Taxonomies.tags }}
